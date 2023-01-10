@@ -1,0 +1,193 @@
+@font-face {
+  font-family: MontBold;
+  src: url("../fonts/Mont-Trial-Bold.otf");
+}
+
+@font-face {
+  font-family: MontLight;
+  src: url("../fonts/Mont-Trial-Book.otf");
+}
+
+.faq__main__container {
+  width: 100%;
+  background: #11346f;
+}
+
+.faq__header__container {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 48px;
+}
+
+.faq__header__container p {
+  font-family: MontBold;
+  font-weight: 700;
+  font-size: 37px;
+  color: #ffffff;
+  margin-top: 34px;
+}
+
+@media (min-width: 686px) {
+  #faq__header__header__logo {
+    position: relative;
+    margin-right: -330px;
+    width: 210px;
+  }
+}
+
+
+.main {
+  margin-top: 65px;
+  width: 100%;
+  padding: 0 100px;
+}
+
+.main__inner__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 124px;
+  padding-bottom: 69px;
+}
+
+@media (max-width: 1267px) {
+  .main__inner__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 34px;
+  }
+}
+
+.main__inner__right__container {
+  height: 398px;
+}
+
+.first__dropdown {
+  height: 126px;
+  background: #11346f;
+  border: 1px solid #31548e;
+  border-radius: 9px;
+}
+
+.first__dropdown__first__input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 25.9px;
+  padding-top: 20px;
+  padding-bottom: 19px;
+  background-color: #194081;
+  border-radius: 9px;
+}
+
+@media (max-width: 705px) {
+  .first__dropdown,
+  .first__dropdown__first__input {
+    width: 475px;
+    margin: 0 auto;
+  }
+}
+
+.first__dropdown__first__input p {
+  font-family: MontBOld;
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.first__dropdown__first__input img {
+  width: 15.84px;
+  padding-top: 3.6px;
+  padding-bottom: 3.6px;
+  margin-top: 3px;
+}
+
+.first__dropdown__under__container {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.first__dropdown__under__container p {
+  margin-top: 22px;
+  font-family: MontLight;
+  font-size: 14px;
+  color: #aeccff;
+}
+
+.default__input {
+  width: 652px;
+  padding-top: 17.5px;
+  padding-bottom: 17.5px;
+  background: #194081;
+  border: 1px solid #31548e;
+  border-radius: 9px;
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 25.9px;
+}
+
+@media (max-width: 705px) {
+  .default__input {
+    width: 475px;
+    margin: 16px auto;
+  }
+
+  .inputs__bottom__title {
+    font-family: MontLight;
+    font-weight: 800;
+    font-size: 16px;
+    color: #f6f8fc;
+    margin-top: 24px;
+    margin-left: 90px;
+  }
+}
+
+.default__input p {
+  font-family: MontLight;
+  font-size: 16px;
+  color: #aeccff;
+}
+
+.inputs__bottom__title {
+  font-family: MontLight;
+  font-weight: 800;
+  font-size: 16px;
+  color: #f6f8fc;
+  margin-top: 24px;
+}
+
+@media (max-width: 485px) {
+  #faq__main__img {
+    width: 320px !important;
+  }
+  .default__input {
+    width: 320px;
+  }
+
+  .first__dropdown {
+    width: 320px;
+    height: 140px;
+  }
+  .first__dropdown__first__input {
+    width: 320px;
+  }
+
+  .first__dropdown__under__container p {
+    font-family: MontLight;
+    font-size: 14px;
+    color: #aeccff;
+    position: absolute;
+    width: 320px;
+    margin-bottom: -2rem;
+    margin-left: -20px;
+  }
+}
